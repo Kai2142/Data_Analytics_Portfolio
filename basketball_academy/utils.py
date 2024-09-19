@@ -23,3 +23,7 @@ def generate_student_id(row):
     gender_code = '0' if gender.lower() == 'female' else '1'
 
     return f"{initials}-{dob_formatted}-{gender_code}"
+
+
+def standardize_school_name(school_name):
+    return school_mappings.get(school_name, school_name)
