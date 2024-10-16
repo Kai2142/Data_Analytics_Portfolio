@@ -1,4 +1,4 @@
-# Data Cleaning and Transformation Script Documentation (Anonimize.ipynb)
+# Data Cleaning and Transformation Script Documentation (Anonymize.ipynb)
 
 ## Overview
 This Python script utilizes the Pandas library to clean and transform participant information stored in a DataFrame. The script performs various operations such as renaming columns, filling in missing data, standardizing school names, creating student IDs, and exporting the modified data to a CSV file.
