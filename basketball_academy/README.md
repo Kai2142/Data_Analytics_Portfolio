@@ -21,22 +21,18 @@ Provide a brief overview of the data analysis report, highlighting its purpose, 
 - [Appendix](#appendix)
 
 ## Introduction
-Company X, a basketball academy in Hong Kong, collects data on camp attendees to understand their demographics \
-and behaviors. This report aims to explore this dataset to drive business insights and improvements.
+
+Company X, a basketball academy in Hong Kong, collects data on camp attendees to understand their demographics and behaviors. This report aims to explore this dataset to drive business insights and improvements.
 
 ## Methodology
+
 Explain the data sources, collection methods, tools, and techniques used for analysis.
 
-The dataset is from a camp in Hong Kong. The analysis includes demographic visualizations, customer turnout rates, \ 
-attendance patterns, correlations, and a Hong Kong district heatmap that visualizes where our kids attend school. \ 
-Insights will be used to inform business decisions.
+The dataset is from a camp in Hong Kong. The analysis includes demographic visualizations, customer turnout rates, attendance patterns, correlations, and a Hong Kong district heatmap that visualizes where our kids attend school. Insights will be used to inform business decisions.
 
 ### Data Overview
 
-The dataset comprises information related to student registrations for a series of events from August 19 to August 23 \ 
-, 2024. Each entry includes details such as timestamps of when students signed up on the google form, student IDs, \ 
-event attendance flags for each day, payment \ status, jersey sizes, payment dates, dates of birth, age, gender, school \ 
-attended, payment acknowledgment, injury \ liability waiver, and photograph release agreement.
+The dataset comprises information related to student registrations for a series of events from August 19 to August 23, 2024. Each entry includes details such as timestamps of when students signed up on the google form, student IDs, event attendance flags for each day, payment status, jersey sizes, payment dates, dates of birth, age, gender, school attended, payment acknowledgment, injury liability waiver, and photograph release agreement.
 
 Key Data Points:
 - **Timestamp:** Date and time of registration (datetime)
