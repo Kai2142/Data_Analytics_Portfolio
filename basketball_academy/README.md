@@ -1,8 +1,14 @@
 # Basketball Academy Data Analysis Report README
 
 ## Overview
-Provide a brief overview of the data analysis report, highlighting its purpose, key objectives, and the target audience.
 
+Welcome to the Basketball Camp Data Analytics Project!
+
+This project serves as a showcase of my data analytics and data science skills, focusing on extracting valuable insights from the data collected from our customers at the basketball camp. The primary goal of this project is to demonstrate my proficiency in handling and analyzing real-world data to derive meaningful conclusions and actionable insights.
+
+One unique aspect of this project is the deliberate introduction of dirty data, intentionally included to highlight my expertise in data cleaning and manipulation using Pandas. By working with imperfect data, I aim to showcase my ability to preprocess and transform datasets effectively.
+
+Through this project, I aim to not only reveal interesting patterns and trends within the basketball camp data but also demonstrate my capability to tackle data challenges and extract valuable information that can drive informed decision-making.
 ## Table of Contents
 - [Introduction](#introduction)
 - [Methodology](#methodology)
@@ -33,7 +39,31 @@ The dataset is from a camp in Hong Kong. The analysis includes demographic visua
 ### Data Overview
 The dataset comprises information related to student registrations for a series of events from August 19 to August 23, 2024. Each entry includes details such as timestamps of when students signed up on the google form, student IDs, event attendance flags for each day, payment status, jersey sizes, payment dates, dates of birth, age, gender, school attended, payment acknowledgment, injury liability waiver, and photograph release agreement.
 
-Key Data Points:
+```
+Basketball_Academy/
+├── data/
+│   ├── HK_District/
+│   │   ├── HKDistrict18.cpg
+│   │   ├── HKDistrict18.dbf
+│   │   ├── HKDistrict18.prj
+│   │   ├── HKDistrict18.shp
+│   │   ├── HKDistrict18.shp.xml
+│   │   └── HKDistrict18.shx
+│   ├── Additional_Columns.csv
+│   ├── Anonymized_Data.csv
+│   ├── Cleaned_Data.csv
+│   ├── merged_df.csv
+│   └── Raw_Camp_Data.csv
+├── Anonymize.ipynb
+├── Data_Cleaning.ipynb
+├── Old_and_new.ipynb
+├── Analysis & Insights.ipynb
+├── README.md
+└── utils.py
+```
+# Column Names: Basketball_Academy/data 
+
+## merged_df 
 - **Timestamp:** Date and time of registration (datetime)
 - **Student ID:** Unique identifier for each student (string)
 - **Aug 19 - Aug 23:** Attendance status for each event day (boolean)
@@ -48,9 +78,8 @@ Key Data Points:
 - **Injury Liability Waiver:** Agreement to waive liability for injuries (boolean)
 - **Photograph Release Agreement:** Agreement for photograph release (boolean)
 
-We also have an additional dataset that we will later merge with this dataset.
 
-Key Data Points
+## Additional_Columns 
 
 - **Student ID:** Unique identifier for each student (string)
 - **Returning Customer:** Indicates if the student is a returning customer (boolean)
@@ -59,9 +88,19 @@ Key Data Points
 - **School Geographic Region:** Geographic region of the school attended by the student (string)
 
 
-This dataset provides a comprehensive view of student registrations, payment statuses, and participant details for the specified events, allowing for further analysis and insights into attendance patterns, demographic information, and compliance with payment and liability agreements.
+_This dataset provides a comprehensive view of student registrations, payment statuses, and participant details for the specified events, allowing for further analysis and insights into attendance patterns, demographic information, and compliance with payment and liability agreements._
 ## Data Cleaning and Preprocessing
-The original dataset contains information Handling missing values, outliers, changing incorrect values and inconsistencies in the dataset will be detailed.
+
+The original dataset came with many issues to fix. These were the issues and fixes:
+
+- ### Anonymized Names
+  Creating Student ID's in place of full names
+- ### Removing Sensitive Information
+- ### Column Name Mapping
+- ### Data Correction and completion
+- ### Standardizing School Names
+- ### Converting Data Types
+- ### Merging Datasets
 
 ## Exploratory Data Analysis (EDA)
 Patterns, trends, and relationships within the data will be explored.
@@ -78,9 +117,6 @@ Graphs, charts, and visual representations will aid in understanding the data.
 ## Key Metrics and KPIs
 Performance indicators relevant to the business will be highlighted.
 
-## Predictive Analysis
-Any predictive models or forecasting techniques used for future projections will be discussed.
-
 ## Recommendations
 Actionable insights and suggestions to enhance business performance will be provided.
 
@@ -90,8 +126,6 @@ Any constraints in the analysis that might affect the validity of the findings w
 ## Conclusion
 Main findings and their implications for the business will be summarized.
 
-## References
-Data sources, tools, methodologies, and external references used in the analysis will be cited.
 
-## Appendix
-Additional information, detailed tables, or supplementary data supporting the analysis will be included.
+
+
