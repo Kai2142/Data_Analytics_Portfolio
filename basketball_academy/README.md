@@ -29,7 +29,61 @@ Company X, a basketball academy in Hong Kong, collects data on camp attendees to
 
 Explain the data sources, collection methods, tools, and techniques used for analysis.
 
-The dataset is from a camp in Hong Kong. The analysis includes demographic visualizations, customer turnout rates, attendance patterns, correlations, and a Hong Kong district heatmap that visualizes where our kids attend school. Insights will be used to inform business decisions.
+The dataset is from a camp in Hong Kong. The analysis includes demographic visualizations, customer turnout rates, attendance patterns, correlations, and a Hong Kong district heatmap that visualizes where our kids attend school. Insights will be used to inform business decisions. 
+
+### Anonymize.ipynb
+
+**Data Loading:**
+- Reads a CSV file named "TC_Aug1923_2024.csv" into a pandas DataFrame `df`.
+
+**Column Renaming:**
+- Maps original column names to desired column names using a dictionary and renames the DataFrame columns accordingly.
+
+**Column Removal:**
+- Removes columns that may reveal customer identities or are deemed unnecessary, such as email addresses, contact numbers, and age groups.
+
+**Data Augmentation:**
+- Fills missing information for specific rows related to participant names, attendance, gender, date of birth, age, and school attended.
+
+**Data Standardization:**
+- Standardizes school names based on a predefined mapping.
+
+**Student ID Generation:**
+- Defines a format for generating student IDs based on initials of names, date of birth, and gender, and creates unique student IDs for each participant.
+
+**Data Export:**
+- Rearranges columns, removes redundant columns like "Full Name" and "Additional Comments", and saves the anonymized dataset to a new CSV file named "Anonymized_Data.csv".
+
+
+### Data_Cleaning.ipynb
+
+**Data Loading:**
+- Reads a CSV file named "Anonymized_Data.csv" from the "data" directory into a pandas DataFrame `df`.
+
+**Remove students who did not attend any of the days during the camp:**
+- Identifies and removes students who did not attend any days of the camp based on their attendance records.
+
+**Check for Missing Values:**
+- Checks for missing values in the DataFrame.
+
+**Fill in Missing Values:**
+- Fills missing values for various columns such as 'Timestamp', 'Payment Received', 'Jersey Sizes', 'Payment Date', and 'Date of Birth'.
+
+**Check Data Types:**
+- Inspects and displays the data types of the columns in the DataFrame.
+
+**Convert Data to Appropriate Data Types:**
+- Converts columns to their appropriate data types, including 'Timestamp', 'Payment Received', 'Jersey Sizes', 'Payment Date', 'Age', 'Date of Birth', 'Payment Instruction Acknowledgement', 'Injury Liability Waiver', and 'Photograph Release Agreement'.
+
+**Data Cleaning Completed:**
+- Displays the cleaned DataFrame after data type conversions.
+
+**Export Cleaned Data:**
+- Saves the cleaned dataset to a new CSV file named "Cleaned_Data.csv" in the "data" directory.
+
+## Analysis & Insights.ipynb
+
+
 
 ### Data Overview
 The dataset comprises information related to student registrations for a series of events from August 19 to August 23, 2024. Each entry includes details such as timestamps of when students signed up on the google form, student IDs, event attendance flags for each day, payment status, jersey sizes, payment dates, dates of birth, age, gender, school attended, payment acknowledgment, injury liability waiver, and photograph release agreement.
@@ -49,6 +103,10 @@ Basketball_Academy/
 │   ├── Cleaned_Data.csv
 │   ├── merged_df.csv
 │   └── Raw_Camp_Data.csv
+|
+├── assets/
+│   └── School_Geographical_Map.png
+|
 ├── Anonymize.ipynb
 ├── Data_Cleaning.ipynb
 ├── Old_and_new.ipynb
