@@ -216,11 +216,32 @@ Community Outreach: Engage with the local community, schools, and organizations 
 10. Continuous Improvement:
 Iterative Enhancements: Implement a culture of continuous improvement by iterating on feedback, refining processes, and adapting strategies to meet the evolving needs of participants and stakeholders.
 By implementing these recommendations and leveraging the insights from the provided statistics, the camp can enhance participant retention, customer acquisition, and overall success, leading to a more engaging and rewarding experience for both students and organizers.
+
 ## Limitations
-Any constraints in the analysis that might affect the validity of the findings will be discussed.
+
+1. **Data Quality Issues:**
+   - Incomplete or inaccurate data could skew your analysis results.
+   - Missing data points may affect the accuracy of conclusions.
+
+2. **Limited Scope:**
+   - The analysis focuses on specific aspects like demographics, attendance, and payment data. Other factors influencing the academy's performance may be overlooked.
+
+3. **Small Dataset:**
+   - The dataset being small may limit the depth of analysis and the generalizability of conclusions drawn from it.
+
+4. **Assumptions:**
+   - Certain assumptions might have been made during the analysis process, potentially affecting the validity of the findings.
+
+5. **Data Privacy and Security:**
+   - Ensuring the confidentiality and security of student data is crucial. Any breaches in data security could have legal implications.
+
+
+6. **Limited Predictive Power:**
+   - The analysis could include predictive metrics and kpi's.
+
 
 ## Conclusion
-Main findings and their implications for the business will be summarized.
+
 
 
 
