@@ -16,15 +16,10 @@ Through this project, I aim to not only reveal interesting patterns and trends w
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Key Findings](#key-findings)
-- [Statistical Analysis](#statistical-analysis)
 - [Data Visualizations](#data-visualizations)
-- [Key Metrics and KPIs](#key-metrics-and-kpis)
-- [Predictive Analysis](#predictive-analysis)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 - [Conclusion](#conclusion)
-- [References](#references)
-- [Appendix](#appendix)
 
 ## Introduction
 
@@ -64,6 +59,7 @@ Basketball_Academy/
 # Column Names: Basketball_Academy/data 
 
 ## merged_df 
+
 - **Timestamp:** Date and time of registration (datetime)
 - **Student ID:** Unique identifier for each student (string)
 - **Aug 19 - Aug 23:** Attendance status for each event day (boolean)
@@ -89,18 +85,31 @@ Basketball_Academy/
 
 
 _This dataset provides a comprehensive view of student registrations, payment statuses, and participant details for the specified events, allowing for further analysis and insights into attendance patterns, demographic information, and compliance with payment and liability agreements._
+
 ## Data Cleaning and Preprocessing
 
 The original dataset came with many issues to fix. These were the issues and fixes:
 
-- ### Anonymized Names
-  Creating Student ID's in place of full names
-- ### Removing Sensitive Information
-- ### Column Name Mapping
-- ### Data Correction and completion
-- ### Standardizing School Names
-- ### Converting Data Types
-- ### Merging Datasets
+**Anonymized Names**
+- Protect identities by replacing names with unique identifiers like Student ID's to ensure data privacy.
+
+**Removing Sensitive Information**
+- Enhance data security by identifying and eliminating confidential data, such as personal identifiers like email addresses,and contact number.
+
+**Column Name Mapping**
+- Ensure clarity and consistency by aligning column headers to a standardized format for improved data understanding and analysis.
+
+**Data Correction and Completion**
+- Improve data quality by rectifying errors, addressing inconsistencies, and filling missing values to ensure accurate and complete datasets.
+
+**Standardizing School Names**
+- Enhance data uniformity by standardizing the naming format of educational institutions, resolving variations for easier comparison and analysis.
+
+**Converting Data Types**
+- Enhance data consistency by converting data formats to a standardized type, facilitating compatibility and analysis across different systems.
+
+**Merging Datasets**
+- Consolidate information from multiple sources by merging datasets based on common identifiers, enabling comprehensive analysis and insights derived from integrated data sets.
 
 ## Exploratory Data Analysis (EDA)
 Patterns, trends, and relationships within the data will be explored.
@@ -108,18 +117,47 @@ Patterns, trends, and relationships within the data will be explored.
 ## Key Findings
 Important insights and discoveries from the analysis will be summarized.
 
-## Statistical Analysis
-Details on statistical tests, correlations, and models used in the analysis will be provided.
+- We retain a high amount of Elite Team players (94.74%)
+- A little more than half are returning customers (61.29%)
+- Most of our student's schools are based in the southern reigon (42.85%)
+- Most of our student's attend HKIS and CDNIS
+- Non ESF Schools were overwhelmingly prevalent in our camps.
+- Customer Turnout was 8.82%.
+- Weekend Academy Conversion Rate: 9.09%
+- Elite Team Conversion Rate: 94.74%
+- Returning Customer Conversion Rate: 61.29%
+- People typically signed up on the day of the camp
 
 ## Data Visualizations
-Graphs, charts, and visual representations will aid in understanding the data.
 
-## Key Metrics and KPIs
-Performance indicators relevant to the business will be highlighted.
+<div style="text-align:left;">
+    <img src="assets/School_Geographical_Map.png" alt="School Geographical Map" style="width:300px;" />
+</div>
+
 
 ## Recommendations
-Actionable insights and suggestions to enhance business performance will be provided.
-
+1. Retention Strategies:
+Elite Team Players: Given the high retention rate (94.74%), focus on maintaining the quality of services and benefits provided to Elite Team players to sustain their loyalty and engagement.
+Returning Customers: Implement targeted retention campaigns for returning customers (61.29%) to enhance their overall experience and encourage repeat participation.
+2. Geographic Focus:
+Southern Region Dominance: Consider expanding marketing efforts in the southern region (42.85%) to capitalize on the existing student base and attract more participants from this area.
+3. School Partnerships:
+HKIS and CDNIS: Strengthen partnerships with schools like HKIS and CDNIS, which are popular among participants, to increase enrollment and brand visibility within these communities. We have already started ASA programs with CDNIS, which will help us foster more future players for our elite teams.
+4. Market Diversification:
+Non-ESF Schools: Given the prevalence of students from non-ESF schools, explore opportunities to diversify the participant base by targeting a wider range of schools and educational institutions.
+5. Customer Acquisition:
+Turnout and Conversion Rates: Enhance marketing strategies to increase customer turnout (8.82%) and optimize conversion rates for Weekend Academy (9.09%), Elite Team (94.74%), and Returning Customers (61.29%).
+6. Registration Optimization:
+Registration Timing: Since most participants sign up on the day of the camp, streamline the registration process, offer incentives for early registration, and provide real-time updates to encourage timely sign-ups.
+7. Data-Driven Decision Making:
+Data Analysis: Continuously monitor and analyze camp data to identify trends, preferences, and areas for improvement, enabling data-driven decision-making and strategic planning.
+8. Feedback and Engagement:
+Participant Feedback: Collect feedback from participants to understand their needs, preferences, and suggestions for enhancing the camp experience, leading to increased satisfaction and retention.
+9. Community Engagement:
+Community Outreach: Engage with the local community, schools, and organizations to promote the camp, foster partnerships, and build a strong network of supporters and participants.
+10. Continuous Improvement:
+Iterative Enhancements: Implement a culture of continuous improvement by iterating on feedback, refining processes, and adapting strategies to meet the evolving needs of participants and stakeholders.
+By implementing these recommendations and leveraging the insights from the provided statistics, the camp can enhance participant retention, customer acquisition, and overall success, leading to a more engaging and rewarding experience for both students and organizers.
 ## Limitations
 Any constraints in the analysis that might affect the validity of the findings will be discussed.
 

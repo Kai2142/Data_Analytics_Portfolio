@@ -1,29 +1,29 @@
 Timestamp,Student ID,Aug 19,Aug 20,Aug 21,Aug 22,Aug 23,Payment Received,Jersey Sizes,Payment Date,Date of Birth,Age,Gender,School,Payment Instruction Acknowledgement,Injury Liability Waver,Photograph Release Agreement,Returning Customer,Elite Team Status,Weekend Academy Status,School Geographic Region
-2024-08-19 18:00:00,AA-200805-1,True,True,True,True,True,0,40,2024-08-24,2008-05-31,16,Male,Dsc International School,False,False,False,True,True,False,Islands District
-2024-08-19 18:00:00,AA-200910-1,True,True,True,True,True,0,40,2024-08-24,2009-10-14,14,Male,Dsc International School,False,False,False,True,True,False,Islands District
+2024-08-19 18:00:00,AA-200805-1,True,True,True,True,True,0,40,2024-08-24,2008-05-31,16,Male,Dsc International School,False,False,False,True,True,False,Eastern District
+2024-08-19 18:00:00,AA-200910-1,True,True,True,True,True,0,40,2024-08-24,2009-10-14,14,Male,Dsc International School,False,False,False,True,True,False,Eastern District
 2024-07-31 06:49:26,AJ-201306-1,True,True,True,True,True,2000,32,2024-08-01,2013-06-07,11,Male,Silvermine Bay School,True,True,True,True,True,False,Islands District
 2024-07-30 06:38:05,AL-201410-1,True,True,True,True,True,2000,34,2024-07-30,2014-10-17,9,Male,Hong Kong International School,True,True,False,True,False,False,Southern District
 2024-08-18 13:52:32,BH-201109-1,True,True,False,False,True,2000,38,2024-08-24,2011-09-20,12,Male,ESF South Island School,True,True,True,True,True,False,Southern District
-2024-08-19 07:35:04,BY-201212-1,True,True,True,True,True,2000,38,2024-08-24,2012-12-17,11,Male,Australian International School,True,True,True,False,True,False,Islands District
+2024-08-19 07:35:04,BY-201212-1,True,True,True,True,True,2000,38,2024-08-24,2012-12-17,11,Male,Australian International School,True,True,True,False,True,False,Kowloon City District
 2024-08-19 13:34:27,CC-201009-1,True,False,True,False,False,1200,0,2024-08-24,2010-09-24,13,Male,Chinese International School,True,True,True,True,True,False,Eastern District
 2024-08-18 03:43:37,CC-201106-1,True,False,False,False,False,0,0,2024-08-24,2011-06-19,13,Male,Chinese International School,True,True,True,True,True,False,Eastern District
 2024-08-05 06:26:46,CC-201705-1,True,True,True,True,True,2000,30,2024-08-23,2017-05-19,7,Male,Harrow International School,True,True,True,False,False,False,Tuen Mun District
-2024-08-18 09:34:53,CH-201302-1,True,True,True,True,True,2000,36,2024-08-18,2013-02-01,11,Male,Kellett School,True,True,True,True,True,False,Wan Chai District
+2024-08-18 09:34:53,CH-201302-1,True,True,True,True,True,2000,36,2024-08-18,2013-02-01,11,Male,Kellett School,True,True,True,True,True,False,Kowloon City District
 2024-08-13 12:27:02,CL-201303-1,False,True,False,True,False,720,0,2024-08-14,2013-03-11,11,Male,Canadian International School,True,True,True,True,False,False,Southern District
 2024-08-19 18:00:00,CW-201701-1,False,False,True,False,True,800,42,2024-08-21,2017-01-01,14,Male,Canadian International School,False,False,False,True,True,False,Southern District
-2024-07-16 14:01:06,DC-201204-1,True,True,True,True,True,2000,36,2024-08-24,2012-04-26,12,Male,ESF Island School,True,True,True,True,True,False,Islands District
-2024-07-16 13:31:46,DK-201112-0,True,True,True,True,True,2000,34,2024-08-24,2011-12-22,12,Female,Dsc International School,True,True,True,True,False,False,Islands District
+2024-07-16 14:01:06,DC-201204-1,True,True,True,True,True,2000,36,2024-08-24,2012-04-26,12,Male,ESF Island School,True,True,True,True,True,False,Central District
+2024-07-16 13:31:46,DK-201112-0,True,True,True,True,True,2000,34,2024-08-24,2011-12-22,12,Female,Dsc International School,True,True,True,True,False,False,Eastern District
 2024-07-27 06:34:32,EC-201204-1,True,True,False,False,True,0,36,2024-08-24,2012-04-10,12,Male,Hong Kong International School,True,True,True,False,False,False,Southern District
 2024-07-27 06:36:31,EC-201410-1,True,True,True,True,True,0,34,2024-08-24,2014-10-27,9,Male,Hong Kong International School,True,True,True,False,False,False,Southern District
 2024-08-18 02:09:55,GT-201108-1,True,True,False,True,False,2000,0,2024-08-24,2011-08-21,13,Male,Chinese International School,True,True,True,True,True,False,Eastern District
 2024-07-26 13:45:05,JC-201209-1,True,True,False,True,True,1800,34,2024-08-24,2012-09-12,11,Male,ESF South Island School,True,True,True,True,True,False,Southern District
 2024-08-18 15:26:00,JZ-201603-1,False,False,False,True,True,2000,32,2024-08-24,2016-03-23,8,Male,Hong Kong International School,True,True,True,True,False,False,Southern District
-2024-08-19 09:53:38,KW-201510-1,True,True,True,True,False,2000,0,2024-08-19,2015-10-13,8,Male,Australian International School,True,True,True,False,True,False,Islands District
+2024-08-19 09:53:38,KW-201510-1,True,True,True,True,False,2000,0,2024-08-19,2015-10-13,8,Male,Australian International School,True,True,True,False,True,False,Kowloon City District
 2024-08-19 04:36:31,LL-201806-1,True,True,True,True,True,2000,26,2024-08-24,2018-06-11,6,Male,St. Joseph'S Primary School,True,True,True,False,False,True,Wan Chai District
-2024-07-30 04:16:19,LM-201508-1,True,True,True,False,True,1600,32,2024-08-23,2015-08-22,9,Male,International Montessori School,True,True,True,True,True,False,Kowloon City District
+2024-07-30 04:16:19,LM-201508-1,True,True,True,False,True,1600,32,2024-08-23,2015-08-22,9,Male,International Montessori School,True,True,True,True,True,False,Central District
 2024-08-02 11:52:26,LVH-201709-1,True,True,True,True,True,1800,28,2024-08-19,2017-09-19,6,Male,Victoria Shanghai Academy,True,True,True,True,False,True,Southern District
-2024-08-19 15:02:07,MK-201804-0,True,True,True,True,False,2000,26,2024-08-24,2018-04-08,6,Female,Ymca Christian Academy,True,True,True,False,False,False,Kowloon City District
-2024-08-19 07:35:53,MY-201508-0,True,True,True,True,True,2000,30,2024-08-24,2015-08-31,8,Female,Australian International School,True,True,True,False,False,False,Islands District
+2024-08-19 15:02:07,MK-201804-0,True,True,True,True,False,2000,26,2024-08-24,2018-04-08,6,Female,Ymca Christian Academy,True,True,True,False,False,False,Central District
+2024-08-19 07:35:53,MY-201508-0,True,True,True,True,True,2000,30,2024-08-24,2015-08-31,8,Female,Australian International School,True,True,True,False,False,False,Kowloon City District
 2024-08-19 18:00:00,OGB-201701-1,True,True,True,True,True,0,0,2024-08-24,2017-01-01,9,Male,Unknown,False,False,False,False,False,False,Unknown
 2024-08-15 13:20:20,SK-201406-1,True,True,True,True,True,1800,34,2024-08-24,2014-06-06,10,Male,Ymca Christian Academy,True,True,True,False,True,False,Kowloon City District
 2024-08-18 13:37:18,TD-201004-1,True,False,True,False,True,1200,40,2024-08-24,2010-04-21,14,Male,Canadian International School,True,True,True,True,True,False,Southern District
