@@ -34,7 +34,7 @@ The dataset is from a camp in Hong Kong. The analysis includes demographic visua
 ### Anonymize.ipynb
 
 **Data Loading:**
-- Reads a CSV file named "TC_Aug1923_2024.csv" into a pandas DataFrame `df`.
+- Reads a CSV file named "Raw_Camp_Data.csv" into a pandas DataFrame `df`.
 
 **Column Renaming:**
 - Maps original column names to desired column names using a dictionary and renames the DataFrame columns accordingly.
