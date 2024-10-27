@@ -6,7 +6,7 @@ Welcome to the Basketball Camp Data Analytics Project!
 
 This project serves as a showcase of my data analytics and data science skills, focusing on extracting valuable insights from the data collected from our customers at the basketball camp. The primary goal of this project is to demonstrate my proficiency in handling and analyzing real-world data to derive meaningful conclusions and actionable insights.
 
-One unique aspect of this project is the deliberate introduction of dirty data, intentionally included to highlight my expertise in data cleaning and manipulation using Pandas. By working with imperfect data, I aim to showcase my ability to preprocess and transform datasets effectively.
+One unique aspect of this project is the deliberate introduction of "dirty" data, intentionally included to highlight my expertise in data cleaning and manipulation using Pandas. By working with imperfect data, I aim to showcase my ability to preprocess and transform datasets effectively.
 
 Through this project, I aim to not only reveal interesting patterns and trends within the basketball camp data but also demonstrate my capability to tackle data challenges and extract valuable information that can drive informed decision-making.
 ## Table of Contents
