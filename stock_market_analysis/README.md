@@ -13,3 +13,4 @@ This project will contain visualizations, insights and recommendations for NVDA,
 6. [Contributors](#contributors)
 7. [License](#license)
 8. [Additional Notes](#additional-notes)
+
