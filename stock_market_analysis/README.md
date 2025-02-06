@@ -1,26 +1,43 @@
-# Stock Market Analysis and Prediction Project
+# Quantitative Stock Market Analysis: Predictive Modelling and insights for NVDA, TSLA, JPM
 
 ## Overview
-Welcome to my Stock Market Analysis project! This project aims to provide tools and insights for analyzing stock market data, making predictions, and understanding key market trends.
-This project will contain visualizations, insights and recommendations for NVDA, TSLA, and JPM. 
+This project focuses on analyzing and predicting stock market trends for NVDA, TSLA, and JPM. 
+By leveraging historical data, we aim to uncover insights into price movements, trading volumes, correlations, returns, and volatility. 
+The project will provide actionable recommendations and visualizations to help investors make informed decisions.
 
-Things we will explore:
-- Price Trends:
-    Analyze the historical price trends for each stock and compare them.
-- Volume Analysis: 
-    Look at trading volumes over time and identify any patterns or anomalies.
-- Correlation Analysis: 
-    Explore the correlation between the stock prices of NVDA, TSLA, and JPM.
-- Return Analysis:
-    Calculate and analyze daily, weekly, or monthly returns for each stock.
-- Volatility Measurement: 
-    Calculate and compare the volatility of the stocks using metrics like standard deviation.
+## Key Objectives:
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Data Sources](#data-sources)
-5. [Technologies Used](#technologies-used)
-6.[Additional Notes](#additional-notes)
+>Analyze historical price trends and identify patterns.
 
+>Examine trading volumes to detect anomalies or trends.
+
+>Investigate correlations between the stocks.
+
+>Calculate and analyze returns over different timeframes.
+
+>Measure and compare volatility using statistical metrics.
+
+## Table of Contents  
+>1. [Overview](#overview)
+>2. [Installation](#installation)  
+>3. [Usage](#usage)  
+>4. [Data Sources](#data-sources)  
+>5. [Technologies Used](#technologies-used)  
+
+### Exploratory Data Analysis  
+>6. [Price Trends](#price-trends)  
+>7. [Volume Analysis](#volume-analysis)  
+>8. [Correlation Analysis](#correlation-analysis)  
+>9. [Return Analysis](#return-analysis)  
+>10. [Volatility Measurement](#volatility-measurement)  
+
+### Advanced Analysis  
+>11. [Fundamental Analysis](#fundamental-analysis)  
+>12. [Technical Analysis](#technical-analysis)  
+>13. [Sentiment Analysis](#sentiment-analysis)  
+>14. [Machine Learning Predictions](#machine-learning-predictions)  
+>15. [Portfolio Optimization](#portfolio-optimization)  
+
+### Conclusion and Next Steps  
+>16. [Conclusion and Recommendations](#conclusion-and-recommendations)  
+>17. [Additional Notes](#additional-notes)  
